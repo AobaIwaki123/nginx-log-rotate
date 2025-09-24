@@ -1,0 +1,9 @@
+services:
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - 800:80
+    volumes:
+      - ./nginx/logs:/var/log/nginx
+      - ./nginx/cron:/etc/cron.d

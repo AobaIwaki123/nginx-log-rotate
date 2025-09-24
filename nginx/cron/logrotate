@@ -1,4 +1,4 @@
 # logrotate の実行スケジュール
 # 毎分 root で logrotate を実行（デバッグ用）
-# 状態は /var/lib/logrotate/status、ログは /var/log/logrotate.log に記録
-* * * * * root /usr/sbin/logrotate -s /var/lib/logrotate/status /etc/logrotate.d/nginx > /var/log/logrotate.log 2>&1
+# 状態は /var/lib/logrotate/state /var/log/logrotate.log に記録
+* * * * * root /usr/sbin/logrotate -s /var/lib/logrotate/state /etc/logrotate.d/nginx > /var/log/logrotate.log 2>&1

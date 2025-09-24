@@ -6,4 +6,4 @@ services:
       - 800:80
     volumes:
       - ./nginx/logs:/var/log/nginx
-      - ./nginx/cron:/etc/cron.d
+      - ./nginx/rolated-logs:/var/log/rolated-logs

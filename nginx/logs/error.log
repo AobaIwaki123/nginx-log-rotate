@@ -46,3 +46,31 @@
 2025/09/24 09:29:48 [notice] 8#8: worker process 15 exited with code 0
 2025/09/24 09:29:48 [notice] 8#8: worker process 16 exited with code 0
 2025/09/24 09:29:48 [notice] 8#8: exit
+2025/09/24 09:39:36 [notice] 14#14: using the "epoll" event method
+2025/09/24 09:39:36 [notice] 14#14: nginx/1.29.1
+2025/09/24 09:39:36 [notice] 14#14: built by gcc 12.2.0 (Debian 12.2.0-14+deb12u1) 
+2025/09/24 09:39:36 [notice] 14#14: OS: Linux 6.15.11-orbstack-00539-g9885ebd8e3f4
+2025/09/24 09:39:36 [notice] 14#14: getrlimit(RLIMIT_NOFILE): 20480:1048576
+2025/09/24 09:39:36 [notice] 14#14: start worker processes
+2025/09/24 09:39:36 [notice] 14#14: start worker process 15
+2025/09/24 09:39:36 [notice] 14#14: start worker process 16
+2025/09/24 09:39:36 [notice] 14#14: start worker process 17
+2025/09/24 09:39:36 [notice] 14#14: start worker process 18
+2025/09/24 09:39:36 [notice] 14#14: start worker process 19
+2025/09/24 09:39:36 [notice] 14#14: start worker process 20
+2025/09/24 09:39:36 [notice] 14#14: start worker process 21
+2025/09/24 09:39:36 [notice] 14#14: start worker process 22
+2025/09/24 09:40:02 [notice] 87#87: using the "epoll" event method
+2025/09/24 09:40:02 [notice] 87#87: nginx/1.29.1
+2025/09/24 09:40:02 [notice] 87#87: built by gcc 12.2.0 (Debian 12.2.0-14+deb12u1) 
+2025/09/24 09:40:02 [notice] 87#87: OS: Linux 6.15.11-orbstack-00539-g9885ebd8e3f4
+2025/09/24 09:40:02 [notice] 87#87: getrlimit(RLIMIT_NOFILE): 20480:1048576
+2025/09/24 09:40:02 [notice] 87#87: start worker processes
+2025/09/24 09:40:02 [notice] 87#87: start worker process 88
+2025/09/24 09:40:02 [notice] 87#87: start worker process 89
+2025/09/24 09:40:02 [notice] 87#87: start worker process 90
+2025/09/24 09:40:02 [notice] 87#87: start worker process 91
+2025/09/24 09:40:02 [notice] 87#87: start worker process 92
+2025/09/24 09:40:02 [notice] 87#87: start worker process 93
+2025/09/24 09:40:02 [notice] 87#87: start worker process 94
+2025/09/24 09:40:02 [notice] 87#87: start worker process 95

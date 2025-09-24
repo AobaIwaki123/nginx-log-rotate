@@ -2,7 +2,8 @@ FROM nginx:latest
 
 RUN apt-get update && apt-get install -y \
     cron \
-    logrotate
+    logrotate \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY cron/logrotate.conf /etc/logrotate.d/nginx
 

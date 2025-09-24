@@ -6,5 +6,4 @@ services:
       - 800:80
     volumes:
       - ./nginx/logs:/var/log/nginx
-      - ./nginx/rotated-logs:/var/log/rotated-logs
       - ./nginx/logrotate-state:/var/lib/logrotate
